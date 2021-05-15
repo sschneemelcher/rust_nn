@@ -1,5 +1,5 @@
 [package]
-name = "RustNN"
+name = "rust_nn"
 version = "0.1.0"
 authors = ["Simon Schneemelcher <s.schneemelcher@tu-bs.de>"]
 edition = "2018"

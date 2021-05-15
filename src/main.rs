@@ -1,7 +1,6 @@
 extern crate nalgebra as na;
 extern crate rand;
 
-use csv::StringRecord;
 use na::SMatrix;
 use rand::{thread_rng, Rng};
 use rand::distributions::Uniform;
@@ -96,7 +95,6 @@ fn main() {
                     process::exit(1);},
         Ok((x_train, y_train)) => {
     
-            let mut rng = thread_rng();
             let mut nn = create_net();
             println!("{:#?}", nn.predict(x_train[0]));
         }
